@@ -82,7 +82,19 @@
 
 		![ScreenShot cd kuliner khas madiun](README.image/ss-cd-kuliner-khas-madiun.png) 
 
-	12.	Lakukan perintah berikut untuk membuat tabel dengan migration yang telah dibuat:  
+	12.	Lakukan perintah berikut untuk men-`install` laravel :  
+		`composer install`  
+		Lalu klik Enter.
+
+		![ScreenShot Composer Install](README.image/ss-composer-install.png) 
+
+	13.	Lakukan perintah berikut untuk men-`generate` KEY :  
+		`php artisan key:generate`  
+		Lalu klik Enter.
+
+		![ScreenShot Key Generate](README.image/ss-key-generate.png) 
+
+	13.	Lakukan perintah berikut untuk membuat tabel dengan migration yang telah dibuat:  
 		`php artisan migrate`
 
 		Maka tabel akan dibuat secara otomatis.
@@ -97,7 +109,6 @@
 
 		![ScreenShot Artisan Serve](README.image/ss-artisan-serve.png) 
 
-	2. **Lanjut ke [Tes API](#Tes)**
 ---
 * ## **HTTP Request API**
 
